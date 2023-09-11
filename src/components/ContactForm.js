@@ -25,15 +25,15 @@ export const ContactForm = () => {
         <form ref={form} onSubmit={sendEmail}>
             <label className='name'>Name</label>
             <br/>
-            <input className="nameField" type="text" name="from_name" style={{fontWeight: 'bolder'} {fontSize: 'large'}}/>
+            <input className="nameField" type="text" name="from_name" style={{fontWeight: 'bolder', fontSize: 'large'}}/>
             <br/>
             <label className='email'>Email</label>
             <br/>
-            <input className="emailField" type="email" name="from_email" style={{fontWeight: 'bolder'}, {fontSize: 'large'}}/>
+            <input className="emailField" type="email" name="from_email" style={{fontWeight: 'bolder', fontSize: 'large'}}/>
             <br/>
             <label className='msg'>Message</label>
             <br/>
-            <textarea className='msg-area' name="message" style={{fontWeight: 'bolder'}, {fontSize: 'large'}}/>
+            <textarea className='msg-area' name="message" style={{fontWeight: 'bolder', fontSize: 'large'}}/>
             <br/>
             <input className='btn-submit' type="submit" value="Send" style={{fontWeight: 'bolder'}}/>
         </form>
