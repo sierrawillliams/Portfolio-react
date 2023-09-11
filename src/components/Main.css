@@ -21,6 +21,7 @@ video {
     align-items: center;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
     background-image: url(/public/images/flower.jpg);
+    /* Image by <a href="https://pixabay.com/users/owantana-3064916/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2336287">Owantana</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2336287">Pixabay</a> */
 }
 
 .main-container > h1 {

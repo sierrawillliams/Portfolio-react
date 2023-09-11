@@ -10,14 +10,11 @@ function Main() {
         <h1>Sierra Williams</h1>
         <p>Web Developer</p>
         <div className='main-btns'>
-            <Button className='btns' buttonStyle='btn--outline'
+            <a href="/work"><Button className='btns' buttonStyle='btn--outline'
             buttonSize='btn--large'>
                 View My Work
             </Button>
-            <Button className='btns' buttonStyle='btn--primary'
-            buttonSize='btn--large'>
-                Contact Me
-            </Button>
+            </a>
         </div>
     </div>
   )
