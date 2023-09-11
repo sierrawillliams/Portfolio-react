@@ -13,24 +13,24 @@ function Cards() {
                     src="images/img1.png"
                     text="Mock Menu"
                     label="Freelance" 
-                    path="/work"/>
+                    path="/work/menu/main.html"/>
                   <CardItem
                     src="images/img2.png"
                     text="Admin Application"
                     label="University Project" 
-                    path="/work"/>
+                    path="https://github.com/UBCO-COSC-499-Summer-2023/project-7-b-rental-marketplace-tool-capstone-rental-marketplace-p7b"/>
                 </ul>
                 <ul className='cards__items'>
                   <CardItem
                     src="images/img3.png"
                     text="Business Website"
                     label="Freelance" 
-                    path="/work"/>
+                    path="https://okinclusion.github.io"/>
                   <CardItem
-                    src="images/img3.png"
-                    text="Business Website"
+                    src="images/Portfolio.png"
+                    text="Portfolio"
                     label="Freelance" 
-                    path="/work"/>
+                    path="/"/>
                 </ul>
             </div>
         </div>
