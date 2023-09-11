@@ -2,6 +2,7 @@ import React from 'react';
 import '../../App.css';
 import ContactMain from '../ContactMain';
 import ContactForm from '../ContactForm';
+import Footer from '../Footer';
 
 import Footer from '../Footer';
 
@@ -10,6 +11,7 @@ function Contact () {
         <>
             <ContactMain/>
             <ContactForm/>
+            <Footer/>
         </>
     )
 }
