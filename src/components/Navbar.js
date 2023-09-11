@@ -5,7 +5,7 @@ import { faSun } from '@fortawesome/free-solid-svg-icons';
 import { faAlignJustify } from '@fortawesome/free-solid-svg-icons';
 import { faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons';
 import '../components/Navbar.css'; 
-import { Button } from './Button';
+import { Button2 } from './Button2';
 
 function Navbar() {
     const [click, setClick] = useState(false);
@@ -60,7 +60,7 @@ function Navbar() {
                     </Link>
                 </li>
             </ul>
-            {button && <Button buttonStyle='btn--outline'>Contact</Button>}
+            {button && <Button2 buttonStyle='btn--outline'>Contact</Button2>}
         </div>
     </nav>
     </>

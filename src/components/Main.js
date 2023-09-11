@@ -1,6 +1,8 @@
 import React from 'react';
 import '../App.css';
 import { Button } from './Button';
+import { Button2 } from './Button2';
+
 import './Main.css';
 
 function Main() {
@@ -15,6 +17,10 @@ function Main() {
                 View My Work
             </Button>
             </a>
+            <Button2 className='btns' buttonStyle='btn--primary'
+            buttonSize='btn--large'>
+                Contact Me
+            </Button2>
         </div>
     </div>
   )
