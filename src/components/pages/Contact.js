@@ -1,6 +1,17 @@
-import React from "react";
+import React from 'react';
 import '../../App.css';
+import ContactMain from '../ContactMain';
+import ContactForm from '../ContactForm';
 
-export default function Contact() {
-    return <h1 className='contact'>CONTACT</h1>;
+import Footer from '../Footer';
+
+function Contact () {
+    return (
+        <>
+            <ContactMain/>
+            <ContactForm/>
+        </>
+    )
 }
+
+export default Contact;

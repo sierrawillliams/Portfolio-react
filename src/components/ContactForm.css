@@ -1,0 +1,72 @@
+@font-face {
+    font-family: Bright;
+    src: url(/public/fonts/Bright\ DEMO.otf);
+  }
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.contact-container {
+    padding: 125px 0 125px 0;
+    background-color: white;
+    height: fit-content;
+    text-align: center;
+    background-color: #fad1d6;
+    font-weight: bolder;
+}
+
+.messageTitle {
+    font-family: Bright;
+    text-shadow: 3px 2px #ed8495;
+    color: #ffffff;
+    font-size: 300%;
+    padding-bottom: 30px;
+}
+
+.name, .email, .msg {
+    text-align: center;
+    font-family: 'Montserrat';
+    color: #ed8495;
+    text-align: justify;
+    font-size: 120%;
+    text-shadow: 2px 2px 2px #ffffff;
+}
+
+.nameField, .emailField, .msgField {
+    text-align: center;
+    margin: 10px 0 20px 10px;
+    height: 30px;
+    width: 300px;
+    border: 1.5px solid #ed8495;
+    border-radius: 2px;
+    box-shadow: 5px 5px #fab5c1;
+    cursor: pointer;
+}
+
+.msg-area {
+    margin: 10px 0 20px 10px;
+    height: 100px;
+    width: 300px;
+    border-radius: 2px;
+    border: 1.5px solid #ed8495;
+    box-shadow: 5px 5px #fab5c1;
+
+}
+
+.btn-submit {
+    border: 1.5px solid #ed8495;
+    box-shadow: 5px 5px #fab5c1;
+    color: #ed8495;
+    background-color: #ffffff;
+    font-size: medium;
+    margin-left: 10px;
+    height: 40px;
+    width: 300px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.btn-submit:active {
+    background-color: #000;
+    box-shadow: none;
+    transform: translate(5px, 5px);
+}
