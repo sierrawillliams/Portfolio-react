@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+
 @font-face {
   font-family: Bright;
   src: url(/public/fonts/Bright\ DEMO.otf);
@@ -16,7 +18,7 @@
   }
   
   .logo-name {
-    font-family: Bright;
+    font-family: 'Courgette';
     text-shadow: 3px 2px #f67c90;
     color: #fad1d6;
     margin-left: -20px;

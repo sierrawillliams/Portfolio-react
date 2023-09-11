@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+
 .cards {
     padding: 4rem;
-    background: #fff;
+    background-color: #fad1d6;
+    
   }
   
   h1 {
@@ -115,4 +118,12 @@
     .cards__item {
       margin-bottom: 2rem;
     }
+  }
+
+  .title-work {
+    font-family: 'Courgette';
+    text-shadow: 3px 2px #ed8495;
+    color: #ffffff;
+    font-size: 300%;
+    padding-bottom: 30px;
   }
