@@ -181,3 +181,19 @@
       cursor: pointer;
     }
   }
+  @media screen and (max-width: 960px) {
+    .logo-name {
+      font-family: 'Courgette';
+      text-shadow: 3px 2px #f67c90;
+      color: #fad1d6;
+      margin-left: -60px;
+      margin-bottom: -30px;
+    }
+    .nav-item {
+      margin-top: 140px;
+      padding-top: 50px;
+    }
+    .nav-links {
+      
+    }
+  }
