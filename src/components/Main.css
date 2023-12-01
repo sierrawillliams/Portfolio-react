@@ -51,13 +51,6 @@ video {
     margin: 6px;
 }
 
-@media screen and (max-width: 960px) {
-    .main-container > h1 {
-        font: 70px;
-        margin-top: -150px;
-    }
-}
-
 @media only screen and (max-width: 960px) {
     .main-container > h1 {
         font: 400%;
