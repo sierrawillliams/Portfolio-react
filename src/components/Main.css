@@ -30,7 +30,7 @@ video {
 .main-container > h1 {
     color: #ffffff;
     font-family: 'Courgette';
-    font-size: 120px;
+    font-size: 750%;
     margin-top: -100px;
     text-shadow: 3px 2px #f67c90;
 
@@ -59,7 +59,7 @@ video {
 
 @media screen and (max-width: 500px) {
     .main-container > h1 {
-        font: 50px;
+        font: 750%;
         margin-top: -100px;
     }
 
@@ -74,5 +74,8 @@ video {
 
     .btn {
         width: 100%;
+    }
+    .main-container > h1 {
+        font-size: 750%;
     }
 }
