@@ -60,7 +60,7 @@ video {
 
 @media screen and (max-width: 500px) {
     .main-container > h1 {
-        font: 750%;
+        font: 500%;
         margin-top: -100px;
     }
 
@@ -76,7 +76,7 @@ video {
     .btn {
         width: 100%;
     }
-    .main-container > h1 {
-        font-size: 750%;
+    .main-btns {
+        padding-bottom: 150px;
     }
 }
