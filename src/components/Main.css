@@ -58,7 +58,7 @@ video {
     }
 }
 
-@media screen and (max-width: 960px) {
+@media only screen and (max-width: 960px) {
     .main-container > h1 {
         font: 400%;
         margin-top: -100px;
