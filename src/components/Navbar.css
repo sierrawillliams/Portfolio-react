@@ -120,7 +120,6 @@
   
     .nav-links {
       text-align: center;
-      padding: 2rem;
       width: 100%;
       display: table;
     }
@@ -190,10 +189,6 @@
       margin-bottom: -30px;
     }
     .nav-item {
-      margin-top: 140px;
-      padding-top: 50px;
-    }
-    .nav-links {
-      
+      height: 200px;
     }
   }
