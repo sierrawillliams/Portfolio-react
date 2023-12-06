@@ -3,7 +3,7 @@
 .cards {
     padding: 4rem;
     background-color: #fad1d6;
-    
+    font-family: 'Montserrat', sans-serif;
   }
   
   h1 {
@@ -17,6 +17,7 @@
     max-width: 1120px;
     width: 90%;
     margin: 0 auto;
+    
   }
   
   .cards__wrapper {
@@ -121,7 +122,7 @@
   }
 
   .title-work {
-    font-family: 'Courgette';
+    font-family: 'Montserrat';
     text-shadow: 3px 2px #ed8495;
     color: #ffffff;
     font-size: 300%;
