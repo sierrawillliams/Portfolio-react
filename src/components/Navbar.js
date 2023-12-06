@@ -60,7 +60,9 @@ function Navbar() {
                     </Link>
                 </li>
             </ul>
+            <div className='contac'>
             {button && <Button2 buttonStyle='btn--outline'>Contact</Button2>}
+            </div>
         </div>
     </nav>
     </>

@@ -9,8 +9,8 @@ function Main() {
   return (
     <div className='main-container'>
         <video src="/videos/wave.mp4" autoPlay loop muted />
-        <h1>Sierra Williams</h1>
-        <p>Web Developer</p>
+        <h1 className='name'>Sierra Williams</h1>        
+        <p className='title'>Web Developer</p>
         <div className='main-btns'>
             <a href="/work"><Button className='btns' buttonStyle='btn--outline'
             buttonSize='btn--large'>

@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: Bright;
-    src: url(/public/fonts/Bright\ DEMO.otf);
+    src: local('Bright'), url(../../public/fonts/Bright.otf) format('otf');
   }
 
 video {
@@ -24,12 +24,13 @@ video {
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
     background-image: url(/public/images/flower.jpg);
     margin-bottom: -220px;
+    font-family: 'Courgette', sans-serif;
     /* Image by <a href="https://pixabay.com/users/owantana-3064916/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2336287">Owantana</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2336287">Pixabay</a> */
 }
 
 .main-container > h1 {
     color: #ffffff;
-    font-family: 'Courgette';
+    font-family: 'Bright';
     font-size: 750%;
     margin-top: -100px;
     text-shadow: 3px 2px #f67c90;
@@ -49,6 +50,14 @@ video {
 
 .main-btns .btn {
     margin: 6px;
+}
+.title {
+    font-family: 'Montserrat';
+
+}
+Button {
+    font-family: 'Montserrat';
+
 }
 
 @media screen and (max-width: 960px) {
@@ -72,5 +81,10 @@ video {
 
     .main-btns {
         padding-bottom: 150px;
+    }
+}
+@media screen and (max-width: 750px) {
+    .name {
+        margin: 0 2em 0 2em;
     }
 }

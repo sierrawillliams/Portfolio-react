@@ -3,14 +3,14 @@
 
 @font-face {
   font-family: Bright;
-  src: url(/public/fonts/Bright\ DEMO.otf);
+  src: url(/public/fonts/Bright.otf);
 }
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Bright', sans-serif;
   }
   
   .home,
