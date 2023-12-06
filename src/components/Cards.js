@@ -13,7 +13,7 @@ function Cards() {
                     src="images/img1.png"
                     text="Mock Menu"
                     label="Freelance" 
-                    path="/work/menu/main.html"/>
+                    path="https://github.com/sierrawillliams/menu"/>
                   <CardItem
                     src="images/img2.png"
                     text="Admin Application"
