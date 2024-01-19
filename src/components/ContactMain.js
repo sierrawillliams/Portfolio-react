@@ -1,5 +1,5 @@
 import React from 'react'
-import backgroundVideo from '../videos/wave1.mp4';
+import backgroundVideo from '../videos/wave.mp4';
 import { TypeAnimation } from 'react-type-animation';       
 
 

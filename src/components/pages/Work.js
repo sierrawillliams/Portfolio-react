@@ -2,7 +2,7 @@ import React from "react";
 import '../../App.css';
 import Cards from '../Cards';
 import Footer from '../Footer';
-import backgroundVideo from '../../videos/background.mp4';
+import backgroundVideo from '../../videos/wave.mp4';
 import { TypeAnimation } from 'react-type-animation';       
 
 

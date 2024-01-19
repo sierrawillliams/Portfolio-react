@@ -150,9 +150,10 @@
   
   .logo-name {
     font-size: 5vmax;
+    margin-top: 10px;
   }
 
   .nav-menu.active {
-    max-height: fit-content;
+    height: fit-content;
   }
 } 
