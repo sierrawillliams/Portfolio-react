@@ -144,8 +144,8 @@
     display: none;
   }
 } 
-/**/
 
+/* iPhone Screen */
 @media screen and (max-width: 720px) {
   
   .logo-name {

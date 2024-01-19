@@ -67,3 +67,10 @@ Button {
     font-family: 'Montserrat';
 
 }
+
+/* iPhone Screen */
+@media screen and (max-width: 720px) {
+    .responsive-type-animation {
+        font-size: 15vw;
+    }
+}

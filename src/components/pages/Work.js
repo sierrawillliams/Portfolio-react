@@ -7,7 +7,7 @@ import backgroundVideo from '../../videos/background.mp4';
 export default function Work() {
     return <> 
     <div className='main-container'>
-        <video autoPlay loop muted>
+        <video autoPlay loop muted playsInline>
             <source src={backgroundVideo} type='video/mp4' alt='Video by Jemaver from Pixabay'/>
         </video>
         <h1>WORK</h1>
