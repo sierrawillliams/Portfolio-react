@@ -28,25 +28,11 @@ function Navbar() {
 
     window.addEventListener('resize', showButton);
 
-        const [isMobile, setIsMobile] = useState(false);
-        useEffect(() => {
-            const handleResize = () => {
-                setIsMobile(window.innerWidth <= 768);
-            };
-            window.addEventListener('resize', handleResize);
-            handleResize();
-            return () => {
-                window.removeEventListener('resize', handleResize);
-            };
-        }, []);
-
   return (
     <>
-    <nav className={`navbar ${isMobile ? 'mobile' : ''}`}>
+    <nav className='navbar'>
         <div className="navbar-container">
-            <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                <h1 className='logo-name'>Sierra Williams</h1>
-            </Link>
+            <h1 className='logo-name'>Sierra Williams</h1>
             <div className='menu-icon' onClick={handleClick}>
                 <FontAwesomeIcon icon={click ? faAngleDoubleRight: faAlignJustify}/>
             </div>
@@ -76,8 +62,7 @@ function Navbar() {
                         {button && <Button2 buttonStyle='btn--primary'>Contact</Button2>}
                     </div>
                 </li>
-            </ul>
-            
+            </ul>            
         </div>
     </nav>
     </>

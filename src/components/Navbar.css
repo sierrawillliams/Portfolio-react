@@ -7,32 +7,24 @@
 }
 
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  background: black;
-  height: 80px;
   font-size: 1.2rem;
 }
 
 .navbar-container {
-  display: flex;
-  align-items: center;
+  display:inherit;
   height: 80px;
-  width: 100%;
   background-color: #000000;
-  overflow: hidden;
-}
-
-.navbar-logo {
-  color: #fff;
-  cursor: default;
-  font-size: 2rem;
 }
 
 .logo-name {
   font-family: 'Shrikhand';
   text-shadow: 3px 2px #f67c90;
   color: #fad1d6;
+  font-size: 2.5rem;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-top: 10px;
+  float: left;
 }
 
 .menu-icon {
@@ -41,7 +33,9 @@
 }
 
 .nav-menu {
-  display: flex;
+  display: inline-flex;
+  float: right;
+  margin-right: 20px;
 }
 
 .nav-item {
@@ -98,6 +92,10 @@
     background: #635f5f;
   }
 
+  .logo-name {
+    transform: translate(5%, 0%);
+  }
+
   .nav-links {
     text-align: center;
     width: 100%;
@@ -109,13 +107,6 @@
     background-color: #fff;
     color: #242424;
     border-radius: 0;
-  }
-
-  .navbar-logo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate(15%, 10%);
   }
   
   .menu-icon {
