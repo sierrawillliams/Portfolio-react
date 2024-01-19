@@ -10,7 +10,7 @@ function Main() {
   return (
     <div className='main-container'>
         <video autoPlay loop muted>
-          <source src={backgroundVideo} type='video/mp4'/>
+          <source src={backgroundVideo} type='video/mp4' alt='Video by 33studiodesign from Pixabay'/>
         </video>
         <div className='responsive-type-animation'>
           <TypeAnimation className='name' sequence={["Sierra Williams", 1000]} speed={20} style={{ fontSize: '8vw', fontFamily: 'Bright', textShadow: '3px 2px #f67c90', color: '#fff'}}/>
