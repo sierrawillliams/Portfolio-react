@@ -9,7 +9,7 @@ import backgroundVideo from '../videos/wave.mp4';
 function Main() { 
   return (
     <div className='main-container'>
-        <video autoPlay loop muted>
+        <video autoPlay loop muted playsInline>
           <source src={backgroundVideo} type='video/mp4' alt='Video by 33studiodesign from Pixabay'/>
         </video>
         <div className='responsive-type-animation'>
