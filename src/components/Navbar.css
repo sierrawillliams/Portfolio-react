@@ -153,6 +153,6 @@
   }
 
   .nav-menu.active {
-    min-height: fit-content;
+    max-height: fit-content;
   }
 } 
