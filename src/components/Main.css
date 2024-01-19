@@ -51,10 +51,14 @@ video {
 .main-btns .btn {
     margin: 6px;
 }
+
+.name {
+    font-family: 'Shrikhand';
+}
 .title {
     font-family: 'Montserrat';
-
 }
+
 Button {
     font-family: 'Montserrat';
 
