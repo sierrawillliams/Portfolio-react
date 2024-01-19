@@ -14,6 +14,10 @@ video {
     z-index: -1;
 }
 
+video::-webkit-media-controls {
+    display: none;
+  }
+
 .main-container {
     /* background: url('images.logo.png') center center/cover no-repeat; */
     height: 100vh;
