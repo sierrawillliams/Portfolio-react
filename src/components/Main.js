@@ -4,11 +4,14 @@ import { Button } from './Button';
 import { Button2 } from './Button2';
 import './Main.css';
 import { TypeAnimation } from 'react-type-animation';       
+import backgroundVideo from '../videos/wave.mp4';
 
 function Main() { 
   return (
     <div className='main-container'>
-        <video src="/videos/wave.mp4" autoPlay loop muted />
+        <video autoPlay loop muted>
+          <source src={backgroundVideo} type='video/mp4'/>
+        </video>
         <div className='responsive-type-animation'>
           <TypeAnimation className='name' sequence={["Sierra Williams", 1000]} speed={20} style={{ fontSize: '8vw', fontFamily: 'Shrikhand', textShadow: '3px 2px #f67c90', color: '#fff'}}/>
         </div> 
