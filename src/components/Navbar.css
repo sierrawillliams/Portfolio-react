@@ -87,7 +87,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 30vh;
+    height: 40vh;
     position: absolute;
     top: 80px;
     left: -100%;
@@ -96,10 +96,21 @@
     background: #635f5f;
   }
 
+  .nav-menu.active {
+    background: #242222;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+
+  .nav-item {
+    margin-bottom: 25px;
+  }
+
   .logo-name {
     font-size: 6vw;
   }
-
 
   .nav-links {
     text-align: center;
@@ -133,110 +144,10 @@
     display: none;
   }
 } 
-
-
-
-
-
-/* @media screen and (max-width: 1550px) {
-  .navbar-logo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate(4%, 10%);
-  }
-  .nav-menu {
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    grid-gap: 10px;
-    list-style: none;
-    text-align: center;
-    width: 60vw;
-    justify-content: end;
-  }
-  .contac {
-    margin-right: -25rem;
-    background-image: none;
-  }
-}
-
-@media screen and (max-width: 1250px) {
-  .navbar-logo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate(10%, 50%);
-  }
-  .nav-menu {
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    grid-gap: 10px;
-    list-style: none;
-    text-align: center;
-    width: 60vw;
-    justify-content: end;
-  }
-  .contac {
-    margin-right: -18rem;
-    background-image: none;
-  }
-}
+/**/
 
 @media screen and (max-width: 1150px) {
-  .nav-menu {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 35vh;
-    position: absolute;
-    top: 80px;
-    left: -100%;
-    opacity: 1;
-    transition: all 0.5s ease;
-  }
-
-  .nav-menu.active {
-    background: #242222;
-    left: 0;
-    opacity: 1;
-    transition: all 0.5s ease;
-    z-index: 1;
-  }
-
-  .nav-links {
-    text-align: center;
-    width: 100%;
-    display: table;
-  }
-
-  .nav-links:hover {
-    background-color: #fff;
-    color: #242424;
-    border-radius: 0;
-  }
-
-  .navbar-logo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate(25%, 50%);
-  }
-
-  .menu-icon {
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(-100%, 60%);
-    font-size: 1.8rem;
-    cursor: pointer;
-  }
-
-  .fa-times {
-    color: #fff;
-    font-size: 2rem;
-  }
-
+  
   .nav-links-mobile {
     display: block;
     text-align: center;
@@ -258,29 +169,4 @@
     transition: 250ms;
   }
 
-  .logo-image {
-    display: block;
-    position: absolute;
-    transform: translate(-30%, 40%);
-    cursor: pointer;
-  }
-  .logo-name {
-    font-family: 'Shrikhand';
-    text-shadow: 3px 2px #f67c90;
-    color: #fad1d6;
-    margin-bottom: -90px;
-    font-size: 150%;
-    margin-left: -10px;
-  }
-  .nav-item {
-    height: 60px;
-    margin-top: 5px;
-    padding-top: 25px;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-  }
-
-  .contac {
-    display: none;
-  }
-} */
+} 
