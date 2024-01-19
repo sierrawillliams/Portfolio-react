@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette');
-
-@font-face {
-    font-family: Bright;
-    src: local('Bright'), url(../../public/fonts/Bright.otf) format('otf');
-  }
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Mochiy+Pop+P+One&display=swap');
 
 video {
     object-fit: cover;
@@ -29,7 +26,7 @@ video {
 
 .main-container > h1 {
     color: #ffffff;
-    font-family: 'Bright';
+    font-family: "Mochiy Pop P One", sans-serif;
     font-size: 750%;
     margin-top: -100px;
     text-shadow: 3px 2px #f67c90;
