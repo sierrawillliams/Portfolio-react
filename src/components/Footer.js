@@ -12,7 +12,7 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              <img className='logo' src='../../images/logo.png' height='150px'/>
+              <img className='logo' src='../../images/logo.png' height='150px' alt='personal logo'/>
             </Link>
           </div>
         </div>
