@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 
 @font-face {
     font-family: Bright;
@@ -29,7 +30,7 @@ video {
 
 .main-container > h1 {
     color: #ffffff;
-    font-family: 'Bright';
+    font-family: 'Shrikhand';
     font-size: 750%;
     margin-top: -100px;
     text-shadow: 3px 2px #f67c90;
