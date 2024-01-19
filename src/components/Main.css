@@ -63,10 +63,3 @@ Button {
     font-family: 'Montserrat';
 
 }
-
-
-@media screen and (max-width: 1150px) {
-    .responsive-type-animation {
-        font-size: 2rem;
-    }
-}
