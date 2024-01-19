@@ -64,31 +64,9 @@ Button {
 
 }
 
-@media screen and (max-width: 960px) {
-    .main-container > h1 {
-        font: 400%;
-        margin-top: -100px;
-    }
 
-    .main-container > p {
-        font-size: 30px;
-    }
-
-    .btn-mobile {
-        display: block;
-        text-decoration: none;
-    }
-
-    .btn {
-        width: 100%;
-    }
-
-    .main-btns {
-        padding-bottom: 150px;
-    }
-}
-@media screen and (max-width: 810px) {
-    .name {
-        margin: 0 2em 0 2em;
+@media screen and (max-width: 1150px) {
+    .responsive-type-animation {
+        font-size: 2rem;
     }
 }
