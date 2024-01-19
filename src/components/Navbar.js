@@ -28,9 +28,21 @@ function Navbar() {
 
     window.addEventListener('resize', showButton);
 
+        const [isMobile, setIsMobile] = useState(false);
+        useEffect(() => {
+            const handleResize = () => {
+                setIsMobile(window.innerWidth <= 768);
+            };
+            window.addEventListener('resize', handleResize);
+            handleResize();
+            return () => {
+                window.removeEventListener('resize', handleResize);
+            };
+        }, []);
+
   return (
     <>
-    <nav className="navbar">
+    <nav className={`navbar ${isMobile ? 'mobile' : ''}`}>
         <div className="navbar-container">
             <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
                 <h1 className='logo-name'>Sierra Williams</h1>
@@ -59,14 +71,17 @@ function Navbar() {
                         Work
                     </Link>
                 </li>
+                <li className='nav-item'>
+                    <div className='contac'>
+                        {button && <Button2 buttonStyle='btn--primary'>Contact</Button2>}
+                    </div>
+                </li>
             </ul>
-            <div className='contac'>
-            {button && <Button2 buttonStyle='btn--primary'>Contact</Button2>}
-            </div>
+            
         </div>
     </nav>
     </>
   )
 }
 
-export default Navbar
+export default Navbar;

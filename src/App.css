@@ -2,11 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Handlee');
 @import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
 
-@font-face {
-  font-family: Bright;
-  src: url(/public/fonts/Bright.otf);
-}
-
 * {
     box-sizing: border-box;
     margin: 0;

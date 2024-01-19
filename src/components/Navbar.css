@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 
 @font-face {
   font-family: Bright;
@@ -6,46 +7,148 @@
 }
 
 .navbar {
-    background: black;
-    height: 80px;
+  display: flex;
+  justify-content: space-between;
+  background: black;
+  height: 80px;
+  font-size: 1.2rem;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  background-color: #000000;
+  overflow: hidden;
+}
+
+.navbar-logo {
+  color: #fff;
+  cursor: default;
+  font-size: 2rem;
+}
+
+.logo-name {
+  font-family: 'Shrikhand';
+  text-shadow: 3px 2px #f67c90;
+  color: #fad1d6;
+}
+
+.menu-icon {
+  display: none;
+  color: #ffffff;
+}
+
+.nav-menu {
+  display: flex;
+}
+
+.nav-item {
+  height: 80px;
+  display: inline;
+}
+
+.nav-links {
+  color: #f6c4ca;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  height: 100%;
+  font-family: 'Montserrat';
+}
+
+.nav-links:hover {
+  border-bottom: 4px solid #fff;
+  transition: all 0.2s ease-out;
+}
+
+.nav-links-mobile {
+  display: none;
+}
+
+.fa-typo3 {
+  margin-left: 0.5rem;
+  font-size: 1.8rem;
+}
+
+.fa-bars {
+  color: #fff;
+}
+
+.contac {
+  margin-top: 18px;
+}
+
+@media screen and (max-width: 1000px) {
+  .nav-menu {
     display: flex;
-    align-items: center;
-    font-size: 1.2rem;
-    position: sticky;
-    top: 0;
-    z-index: 999;
-  }
-  
-  .logo-name {
-    font-family: 'Bright';
-    text-shadow: 3px 2px #f67c90;
-    color: #fad1d6;
+    flex-direction: column;
+    width: 100%;
+    height: 30vh;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
   }
 
-  .navbar-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80px;
+  .nav-menu {
+    background: #635f5f;
+  }
+
+  .nav-links {
+    text-align: center;
     width: 100%;
-    background-color: #000000;
+    display: table;
+    padding-top: 30px;
   }
-  
+
+  .nav-links:hover {
+    background-color: #fff;
+    color: #242424;
+    border-radius: 0;
+  }
+
   .navbar-logo {
-    color: #fff;
-    justify-self: start;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 2rem;
-    display: flex;
-    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(15%, 10%);
   }
   
-  .fa-typo3 {
-    margin-left: 0.5rem;
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
     font-size: 1.8rem;
+    cursor: pointer;
   }
-  
+
+  .fa-times {
+    color: #fff;
+    font-size: 2rem;
+  }
+
+  .contac {
+    display: none;
+  }
+} 
+
+
+
+
+
+/* @media screen and (max-width: 1550px) {
+  .navbar-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(4%, 10%);
+  }
   .nav-menu {
     display: grid;
     grid-template-columns: repeat(4, auto);
@@ -54,161 +157,134 @@
     text-align: center;
     width: 60vw;
     justify-content: end;
-    margin-right: 2rem;
   }
-  
-  .nav-item {
-    height: 80px;
+  .contac {
+    margin-right: -25rem;
+    background-image: none;
   }
-  
-  .nav-links {
-    color: #f6c4ca;
+}
+
+@media screen and (max-width: 1250px) {
+  .navbar-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(10%, 50%);
+  }
+  .nav-menu {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 60vw;
+    justify-content: end;
+  }
+  .contac {
+    margin-right: -18rem;
+    background-image: none;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .nav-menu {
     display: flex;
-    align-items: center;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    height: 100%;
-    font-family: 'Montserrat';
+    flex-direction: column;
+    width: 100%;
+    height: 35vh;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
   }
-  
+
+  .nav-menu.active {
+    background: #242222;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+
+  .nav-links {
+    text-align: center;
+    width: 100%;
+    display: table;
+  }
+
   .nav-links:hover {
-    border-bottom: 4px solid #fff;
-    transition: all 0.2s ease-out;
+    background-color: #fff;
+    color: #242424;
+    border-radius: 0;
   }
 
-  .fa-bars {
-    color: #fff;
+  .navbar-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(25%, 50%);
   }
-  
-  .nav-links-mobile {
-    display: none;
-  }
-  
+
   .menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  .fa-times {
+    color: #fff;
+    font-size: 2rem;
+  }
+
+  .nav-links-mobile {
+    display: block;
+    text-align: center;
+    margin: 2rem auto;
+    border-radius: 4px;
+    width: 80%;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: #fff;
+    padding: 14px 20px;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-out;
+  }
+
+  .nav-links-mobile:hover {
+    background: #fff;
+    color: #242424;
+    transition: 250ms;
+  }
+
+  .logo-image {
+    display: block;
+    position: absolute;
+    transform: translate(-30%, 40%);
+    cursor: pointer;
+  }
+  .logo-name {
+    font-family: 'Shrikhand';
+    text-shadow: 3px 2px #f67c90;
+    color: #fad1d6;
+    margin-bottom: -90px;
+    font-size: 150%;
+    margin-left: -10px;
+  }
+  .nav-item {
+    height: 60px;
+    margin-top: 5px;
+    padding-top: 25px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+
+  .contac {
     display: none;
-    color: #ffffff;
   }
-  @media screen and (max-width: 1250px) {
-    .navbar-logo {
-      position: absolute;
-      top: 0;
-      left: 0;
-      transform: translate(10%, 50%);
-    }
-    .nav-menu {
-      display: grid;
-      grid-template-columns: repeat(4, auto);
-      grid-gap: 10px;
-      list-style: none;
-      text-align: center;
-      width: 60vw;
-      justify-content: end;
-    }
-    .contac {
-      margin-right: -18rem;
-      background-image: none;
-    }
-  }
-
-  @media screen and (max-width: 1150px) {
-    .nav-menu {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      height: 35vh;
-      position: absolute;
-      top: 80px;
-      left: -100%;
-      opacity: 1;
-      transition: all 0.5s ease;
-    }
-  
-    .nav-menu.active {
-      background: #242222;
-      left: 0;
-      opacity: 1;
-      transition: all 0.5s ease;
-      z-index: 1;
-    }
-  
-    .nav-links {
-      text-align: center;
-      width: 100%;
-      display: table;
-    }
-  
-    .nav-links:hover {
-      background-color: #fff;
-      color: #242424;
-      border-radius: 0;
-    }
-  
-    .navbar-logo {
-      position: absolute;
-      top: 0;
-      left: 0;
-      transform: translate(25%, 50%);
-    }
-  
-    .menu-icon {
-      display: block;
-      position: absolute;
-      top: 0;
-      right: 0;
-      transform: translate(-100%, 60%);
-      font-size: 1.8rem;
-      cursor: pointer;
-    }
-  
-    .fa-times {
-      color: #fff;
-      font-size: 2rem;
-    }
-  
-    .nav-links-mobile {
-      display: block;
-      text-align: center;
-      margin: 2rem auto;
-      border-radius: 4px;
-      width: 80%;
-      text-decoration: none;
-      font-size: 1.5rem;
-      background-color: transparent;
-      color: #fff;
-      padding: 14px 20px;
-      border: 1px solid #fff;
-      transition: all 0.3s ease-out;
-    }
-  
-    .nav-links-mobile:hover {
-      background: #fff;
-      color: #242424;
-      transition: 250ms;
-    }
-
-    .logo-image {
-      display: block;
-      position: absolute;
-      transform: translate(-30%, 40%);
-      cursor: pointer;
-    }
-    .logo-name {
-      font-family: 'Bright';
-      text-shadow: 3px 2px #f67c90;
-      color: #fad1d6;
-      margin-bottom: -90px;
-      font-size: 150%;
-      margin-left: -10px;
-    }
-    .nav-item {
-      height: 60px;
-      margin-top: 5px;
-      padding-top: 25px;
-      margin-bottom: 20px;
-      padding-bottom: 20px;
-    }
-
-    .contac {
-      display: none;
-    }
-  }
+} */
