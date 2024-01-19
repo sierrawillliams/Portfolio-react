@@ -23,7 +23,8 @@
   font-size: 4vw;
   text-decoration: none;
   margin-left: 2vw;
-  margin-top: 1.5vh;
+  display: flex;  
+  align-items: center;
   float: left;
 }
 
