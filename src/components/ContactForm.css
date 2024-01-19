@@ -17,7 +17,7 @@
 }
 
 .messageTitle {
-    font-family: 'Courgette';
+    font-family: 'Bright';
     text-shadow: 3px 2px #ed8495;
     color: #ffffff;
     font-size: 300%;
@@ -65,6 +65,7 @@
     width: 300px;
     border-radius: 2px;
     cursor: pointer;
+    font-family: 'Montserrat';
 }
 
 .btn-submit:active {
