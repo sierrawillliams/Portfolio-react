@@ -14,7 +14,7 @@ export default function Work() {
             <source src={backgroundVideo} type='video/mp4' alt='Video by Jemaver from Pixabay'/>
         </video>
         <div className='responsive-type-animation'>
-          <TypeAnimation className='name' sequence={["Work", 1000]} speed={20} style={{ fontSize: '12vw', fontFamily: 'Bright', textShadow: '3px 2px #f67c90', color: '#fff'}}/>
+          <TypeAnimation className='name' sequence={["Work", 1000]} speed={5} style={{ fontSize: '12vw', fontFamily: 'Bright', textShadow: '3px 2px #f67c90', color: '#fff'}}/>
         </div> 
         <div className='main-btns'>
             <img src={arrow} height={60}/>

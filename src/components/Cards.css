@@ -6,7 +6,7 @@
 }
 
 .cards {
-    padding: 6rem;
+    padding: 4rem;
     background-color: #fad1d6;
     font-family: 'Montserrat', sans-serif;
   }
@@ -22,7 +22,6 @@
     max-width: 1120px;
     width: 90%;
     margin: 0 auto;
-    
   }
   
   .cards__wrapper {
@@ -117,11 +116,6 @@
   @media only screen and (min-width: 1024px) {
     .cards__items {
       display: flex;
-    }
-  }
-  
-  @media only screen and (max-width: 1024px) {
-    .cards__item {
       margin-bottom: 2rem;
     }
   }

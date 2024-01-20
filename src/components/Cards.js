@@ -8,17 +8,34 @@ function Cards() {
         <h1 className='title-work'>Check out my work!</h1>
         <div className='cards__container'>
             <div className='cards__wrapper'>
-                <ul className='cards__items'>
-                  <CardItem
-                    src="images/img1.png"
-                    text="Mock Menu"
-                    label="Freelance" 
-                    path="https://github.com/sierrawillliams/menu"/>
-                  <CardItem
-                    src="images/img2.png"
-                    text="Admin Application"
-                    label="University Project" 
-                    path="https://github.com/UBCO-COSC-499-Summer-2023/project-7-b-rental-marketplace-tool-capstone-rental-marketplace-p7b"/>
+              <ul className='cards__items'>
+                <CardItem
+                  src="images/img1.png"
+                  text="Mock Menu"
+                  label="Freelance" 
+                  path="https://github.com/sierrawillliams/menu"/>
+                <CardItem
+                  src="images/img1.png"
+                  text="Mock Menu"
+                  label="Freelance" 
+                  path="https://github.com/sierrawillliams/menu"/>
+              </ul>
+              <ul className='cards__items'>
+                <CardItem
+                  src="images/img1.png"
+                  text="Mock Menu"
+                  label="Freelance" 
+                  path="https://github.com/sierrawillliams/menu"/>
+                <CardItem
+                  src="images/img2.png"
+                  text="Admin Application"
+                  label="University Project" 
+                  path="https://github.com/UBCO-COSC-499-Summer-2023/project-7-b-rental-marketplace-tool-capstone-rental-marketplace-p7b"/>
+                <CardItem
+                  src="images/img3.png"
+                  text="Business Website"
+                  label="Freelance" 
+                  path="https://okinclusion.github.io"/>
                 </ul>
                 <ul className='cards__items'>
                   <CardItem
