@@ -9,30 +9,34 @@ function Cards() {
         <div className='cards__container'>
             <div className='cards__wrapper'>
               <ul className='cards__items'>
-                <CardItem
-                  src="images/img1.png"
-                  text="Mock Menu"
+              <CardItem
+                  src="images/img3.png"
+                  text="Business Website"
                   label="Freelance" 
-                  path="https://github.com/sierrawillliams/menu"/>
+                  language="JavaScript, HTML, CSS"
+                  path="https://okinclusion.github.io"/>
                   <br/>
-                <CardItem
-                  src="images/img1.png"
-                  text="Mock Menu"
-                  label="Freelance" 
-                  path="https://github.com/sierrawillliams/menu"/>
-              </ul>
-              <ul className='cards__items'>
-                <CardItem
-                  src="images/img1.png"
-                  text="Mock Menu"
-                  label="Freelance" 
-                  path="https://github.com/sierrawillliams/menu"/>
-                  <br/>
-                <CardItem
+                  <CardItem
                   src="images/img2.png"
                   text="Admin Application"
-                  label="University Project" 
+                  label="University Project"
+                  language="React, Prisma, Docker, Node.js, JavaScript, HTML, CSS"
                   path="https://github.com/UBCO-COSC-499-Summer-2023/project-7-b-rental-marketplace-tool-capstone-rental-marketplace-p7b"/>
+              </ul>
+              <ul className='cards__items'>
+              <CardItem
+                    src="images/Portfolio.png"
+                    text="Portfolio"
+                    label="Freelance" 
+                    language="React, Node.js, JavaScript, HTML, CSS"
+                    path="/"/>
+                  <br/>
+                  <CardItem
+                  src="images/img1.png"
+                  text="Mock Menu"
+                  label="Freelance" 
+                  language="HTML, CSS"
+                  path="https://github.com/sierrawillliams/menu"/>
                   <br/>
                 <CardItem
                   src="images/img3.png"

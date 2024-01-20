@@ -13,6 +13,9 @@ function CardItem(props) {
             <div className='cards__item__info'>
                 <h5 className='cards__item__text' style={{fontFamily: 'Montserrat'}}>{props.text}</h5>
             </div>
+            <div className='cards__item__languages'>
+              <p className='cards__item__language__text' style={{fontFamily: 'Montserrat'}}>{props.language}</p>
+            </div>
         </Link>
     </li>
     </>

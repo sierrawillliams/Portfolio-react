@@ -98,13 +98,21 @@
   }
   
   .cards__item__info {
-    padding: 20px 30px 30px;
+    padding: 20px 25px 20px;
   }
   
   .cards__item__text {
     color: #252e48;
     font-size: 18px;
     line-height: 24px;
+  }
+
+  .cards__item__languages {
+    padding: 0 20px 30px;
+  }
+
+  .cards__item__language__text {
+    color: #ed8495;
   }
   
   @media only screen and (min-width: 1200px) {
