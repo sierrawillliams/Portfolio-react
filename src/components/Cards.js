@@ -14,6 +14,7 @@ function Cards() {
                   text="Mock Menu"
                   label="Freelance" 
                   path="https://github.com/sierrawillliams/menu"/>
+                  <br/>
                 <CardItem
                   src="images/img1.png"
                   text="Mock Menu"
@@ -26,11 +27,13 @@ function Cards() {
                   text="Mock Menu"
                   label="Freelance" 
                   path="https://github.com/sierrawillliams/menu"/>
+                  <br/>
                 <CardItem
                   src="images/img2.png"
                   text="Admin Application"
                   label="University Project" 
                   path="https://github.com/UBCO-COSC-499-Summer-2023/project-7-b-rental-marketplace-tool-capstone-rental-marketplace-p7b"/>
+                  <br/>
                 <CardItem
                   src="images/img3.png"
                   text="Business Website"
@@ -43,6 +46,7 @@ function Cards() {
                     text="Business Website"
                     label="Freelance" 
                     path="https://okinclusion.github.io"/>
+                    <br/>
                   <CardItem
                     src="images/Portfolio.png"
                     text="Portfolio"
