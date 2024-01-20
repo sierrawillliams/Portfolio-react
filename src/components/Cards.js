@@ -39,22 +39,22 @@ function Cards() {
                   path="https://github.com/sierrawillliams/menu"/>
                   <br/>
                 <CardItem
-                  src="images/img3.png"
-                  text="Business Website"
-                  label="Freelance" 
+                  src="images/coming-soon.jpg"
+                  text="Chatbot"
+                  label="Coming Soon" 
                   path="https://okinclusion.github.io"/>
                 </ul>
                 <ul className='cards__items'>
                   <CardItem
-                    src="images/img3.png"
-                    text="Business Website"
-                    label="Freelance" 
+                    src="images/coming-soon.jpg"
+                    text="Scheduling Software"
+                    label="Coming Soon" 
                     path="https://okinclusion.github.io"/>
                     <br/>
                   <CardItem
-                    src="images/Portfolio.png"
-                    text="Portfolio"
-                    label="Freelance" 
+                    src="images/coming-soon.jpg"
+                    text="To Do List"
+                    label="Coming Soon" 
                     path="/"/>
                 </ul>
             </div>
@@ -64,3 +64,5 @@ function Cards() {
 }
 
 export default Cards
+
+/* Coming Soon - Image by Ann Carter from Pixabay */
