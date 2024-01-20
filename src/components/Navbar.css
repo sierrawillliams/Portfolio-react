@@ -134,6 +134,10 @@
     cursor: pointer;
     margin-top: -0.8vw;
   }
+  .nav-menu.active {
+    height: fit-content;
+    top: 4.8vh;
+  }
 } 
 
 /* iPhone Screen */
@@ -146,7 +150,7 @@
 
   .nav-menu.active {
     height: fit-content;
-    top: 6vw;
+    top: 4.8vh;
   }
 
   .menu-icon {
