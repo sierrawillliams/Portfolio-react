@@ -48,6 +48,11 @@ function Navbar() {
                     </Link>
                 </li>
                 <li className='nav-item'>
+                    <Link to="/about" className={"nav-links" + (url === "/about" ?" active" : "")} onClick={closeMobileMenu}>
+                        About
+                    </Link>
+                </li>
+                <li className='nav-item'>
                     <Link to="https://github.com/sierrawillliams" className={"nav-links" + (url === "/github" ?" active" : "")} onClick={closeMobileMenu}>
                         Github
                     </Link>

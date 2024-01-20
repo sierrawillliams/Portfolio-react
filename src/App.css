@@ -23,7 +23,6 @@
   }
   
   .contact {
-    background-image: url('/public/images/sky.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -32,7 +31,6 @@
   }
   
   .work {
-    background-image: url('/public/images/smoke.jpg');
     background-position: center;
     background-size: fill;
     background-repeat: no-repeat;

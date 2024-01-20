@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette');
 
+@font-face {
+  font-family: Bright;
+  src: local('Bright'), url(../../public/fonts/Bright.otf) format('otf');
+}
+
 .cards {
     padding: 4rem;
     background-color: #fad1d6;
