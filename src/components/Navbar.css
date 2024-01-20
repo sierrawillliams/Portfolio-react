@@ -8,6 +8,7 @@
 
 .navbar {
   font-size: 1.2rem;
+
 }
 
 .navbar-container {
@@ -16,6 +17,8 @@
   background-color: #000000;
   position: fixed;
   width: 100%;
+  z-index: 1;
+
 }
 
 .logo-name {
