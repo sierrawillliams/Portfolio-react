@@ -12,7 +12,7 @@
 
 .navbar-container {
   display:inherit;
-  height: 80px;
+  height: fit-content;
   background-color: #000000;
   position: fixed;
   width: 100%;
@@ -22,10 +22,10 @@
   font-family: 'Bright';
   text-shadow: 3px 2px #f67c90;
   color: #fad1d6;
-  font-size: 4rem;
+  font-size: 5vmax;
   text-decoration: none;
   margin-left: 2vw;
-  margin-top: 1.5vh;
+  margin-top: 1.5vmin;
   float: left;
 }
 
@@ -46,7 +46,7 @@
 }
 
 .nav-item {
-  height: 80px;
+  height: 5.5vmax;
   display: inline;
 }
 
@@ -82,7 +82,13 @@
   margin-top: 18px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1340px) {
+  .contac {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1025px) {
   .nav-menu {
     display: flex;
     flex-direction: column;

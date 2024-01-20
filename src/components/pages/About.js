@@ -1,12 +1,11 @@
 import React from "react";
 import '../../App.css';
-import AboutItem from "../AboutItem.js";
 import '../AboutItem.css';
+import AboutItem from "../AboutItem.js";
 import Footer from '../Footer';
 import backgroundVideo from '../../videos/wave.mp4';
 import { TypeAnimation } from 'react-type-animation';  
 import arrow from '../../images/down-arrow.png'     ;
-
 
 export default function About() {
     return <> 
@@ -23,7 +22,6 @@ export default function About() {
     </div>
     <AboutItem/>
     <Footer/>
-
 </>;
 }
 

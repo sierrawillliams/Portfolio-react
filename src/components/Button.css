@@ -19,7 +19,7 @@
 }
 
 .btn--outline {
-    background-image: url(../../public/images/button-background.png);
+    background-color: #fab5c1;
     color: #ffffff;
     padding: 8px 20px;
     border: #ed8495 1px solid;

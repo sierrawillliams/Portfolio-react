@@ -2,7 +2,6 @@ import React from 'react'
 import backgroundVideo from '../videos/wave.mp4';
 import { TypeAnimation } from 'react-type-animation';       
 
-
 function ContactMain() {
   return (
     <div className='main-container'>
@@ -16,4 +15,4 @@ function ContactMain() {
   )
 }
 
-export default ContactMain
+export default ContactMain;
