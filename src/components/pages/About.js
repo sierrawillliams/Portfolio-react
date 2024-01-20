@@ -4,7 +4,8 @@ import AboutItem from "../AboutItem.js";
 import '../AboutItem.css';
 import Footer from '../Footer';
 import backgroundVideo from '../../videos/wave.mp4';
-import { TypeAnimation } from 'react-type-animation';       
+import { TypeAnimation } from 'react-type-animation';  
+import arrow from '../../images/down-arrow.png'     ;
 
 
 export default function About() {
@@ -16,6 +17,9 @@ export default function About() {
         <div className='responsive-type-animation'>
           <TypeAnimation className='name' sequence={["About", 1000]} speed={20} style={{ fontSize: '12vw', fontFamily: 'Bright', textShadow: '3px 2px #f67c90', color: '#fff'}}/>
         </div> 
+        <div className='main-btns'>
+            <img src={arrow} height={100}/>
+        </div>
     </div>
     <AboutItem/>
     <Footer/>

@@ -1,3 +1,16 @@
+
 .icons {
-    margin: 15px 20px;
+    margin: 35px 25px;
+    max-height: 120px;
+}
+
+@media screen and (max-width: 1810px) {
+    
+}
+
+@media screen and (max-width: 720px) {
+    .all-icons {
+        display: flex;
+        flex-direction: column;
+    }
 }
