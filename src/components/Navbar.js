@@ -67,11 +67,6 @@ function Navbar() {
                         Work
                     </Link>
                 </li>
-                <li className='nav-item'>
-                    <div className='contac'>
-                        {button && <Button2 buttonStyle='btn--primary'>Contact</Button2>}
-                    </div>
-                </li>
             </ul>            
         </div>
     </nav>
