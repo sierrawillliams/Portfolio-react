@@ -32,7 +32,7 @@ function Cards() {
                     path="/"/>
                   <br/>
                   <CardItem
-                  src="images/img1.png"
+                  src="images/menu.png"
                   text="Mock Menu"
                   label="Freelance" 
                   language="HTML, CSS"
