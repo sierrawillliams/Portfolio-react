@@ -97,6 +97,7 @@
     top: 4.8vw;
     height: fit-content;
     left: 0;
+    z-index: 1;
   }
 
   .nav-item {
@@ -128,6 +129,7 @@
     transform: translate(-100%, 60%);
     font-size: 3vw;
     cursor: pointer;
+    margin-top: -0.8vw;
   }
 
   .contac {
