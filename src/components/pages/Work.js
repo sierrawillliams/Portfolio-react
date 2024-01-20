@@ -4,7 +4,7 @@ import Cards from '../Cards';
 import Footer from '../Footer';
 import backgroundVideo from '../../videos/wave.mp4';
 import { TypeAnimation } from 'react-type-animation';     
-import arrow from '../../images/down-arrow.png'     ;
+import arrow from '../../images/down-arrow.png';
 
 
 export default function Work() {

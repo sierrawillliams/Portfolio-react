@@ -25,16 +25,13 @@
 }
 
 .name, .email, .msg {
-    text-align: center;
     font-family: 'Montserrat';
     color: #ed8495;
     text-align: justify;
     font-size: 120%;
-    text-shadow: 2px 2px 2px #ffffff;
 }
 
 .nameField, .emailField, .msgField {
-    text-align: center;
     margin: 10px 0 20px 10px;
     height: 30px;
     width: 300px;
