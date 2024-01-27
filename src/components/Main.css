@@ -57,6 +57,6 @@ Button {
 /* Macbook Screen */
 @media screen and (max-height: 720px) {
     .main-container {
-        min-height: 40rem;
+        min-height: 50rem;
       }
 }
