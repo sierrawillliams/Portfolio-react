@@ -14,21 +14,6 @@ video {
     z-index: -1;
 }
 
-video::-webkit-media-controls {
-    display: none;
-  }
-
-.main-container {
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
-    margin-bottom: -150px;
-}
-
 .main-container > p {
     margin-top: 8px;
     color: #ffffff;
@@ -55,10 +40,21 @@ Button {
     font-family: 'Montserrat';
 
 }
+.responsive-type-animation {
+    vertical-align: middle;
+}
 
 /* iPhone Screen */
 @media screen and (max-width: 720px) {
     .responsive-type-animation {
         font-size: 15vw;
+    }
+}
+
+
+/* Macbook Screen */
+@media screen and (max-height: 720px) {
+    .main-container {
+        min-height: fit-content;
     }
 }
