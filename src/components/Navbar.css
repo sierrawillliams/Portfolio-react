@@ -39,7 +39,7 @@
   display: inline-flex;
   float: right;
   margin-right: 20px;
-  margin-top: 10vh;
+  margin-top: 5vh;
 }
 
 .active {
@@ -79,7 +79,7 @@
 .fa-bars {
   color: #fff;
 }
-
+/* Laptop */
 @media screen and (max-width: 1025px) and (max-height: 714px) {
   .nav-menu {
     display: flex;
@@ -137,7 +137,7 @@
   }
 } 
 
-/* iPhone Screen */
+/* iPhone Screen  and laptop */
 @media screen and (max-width: 720px) and (max-height: 714px) {
   
   .logo-name {
@@ -155,7 +155,7 @@
   }
 
 } 
-
+/* Laptop */
 @media screen and (max-width: 650px) and (max-height: 714px) {
   .menu-icon {
     font-size: 3vh;
