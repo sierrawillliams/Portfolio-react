@@ -39,6 +39,7 @@
   display: inline-flex;
   float: right;
   margin-right: 20px;
+  min-height: 12vh;
 }
 
 .active {
