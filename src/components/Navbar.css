@@ -12,7 +12,6 @@
 
 .navbar-container {
   display: inherit;
-  height: fit-content;
   background-color: #000000;
   position: fixed;
   width: 100%;
@@ -138,7 +137,7 @@
   }
 
   .navbar-container {
-    min-height: 60vh;
+    min-height: 10vh;
   }
 } 
 
