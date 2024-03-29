@@ -1,183 +1,168 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 
 @font-face {
   font-family: Bright;
-  src: url(/public/fonts/Bright\ DEMO.otf);
+  src: url(/public/fonts/Bright.otf);
 }
 
 .navbar {
-    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.2rem;
-    position: sticky;
-    top: 0;
-    z-index: 999;
-  }
-  
-  .logo-name {
-    font-family: 'Courgette';
-    text-shadow: 3px 2px #f67c90;
-    color: #fad1d6;
-    margin-left: -20px;
-  }
+  font-size: 1.2rem;
 
-  .navbar-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80px;
-    width: 100%;
-    background-color: #000000;
-    padding-right: 10px;
-  }
-  
-  .navbar-logo {
-    color: #fff;
-    justify-self: start;
-    margin-left: 20px;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 2rem;
-    display: flex;
-    align-items: center;
-  }
-  
-  .fa-typo3 {
-    margin-left: 0.5rem;
-    font-size: 1.8rem;
-  }
-  
+}
+
+.navbar-container {
+  display:inherit;
+  height: fit-content;
+  background-color: #000000;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+
+}
+
+.logo-name {
+  font-family: 'Bright';
+  text-shadow: 3px 2px #f67c90;
+  color: #fad1d6;
+  font-size: 5vmax;
+  text-decoration: none;
+  margin-left: 2vw;
+  margin-top: 1.5vmin;
+  float: left;
+}
+
+.menu-icon {
+  display: none;
+  color: #ffffff;
+}
+
+.nav-menu {
+  display: inline-flex;
+  float: right;
+  margin-right: 20px;
+}
+
+.active {
+  border-bottom: 4px solid #fff;
+  transition: all 0.2s ease-out;
+}
+
+.nav-item {
+  height: 5.5vmax;
+  display: inline;
+}
+
+.nav-links {
+  color: #f6c4ca;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  height: 100%;
+  font-family: 'Montserrat';
+}
+
+.nav-links:hover {
+  border-bottom: 4px solid #fff;
+  transition: all 0.2s ease-out;
+}
+
+.nav-links-mobile {
+  display: none;
+}
+
+.fa-typo3 {
+  margin-left: 0.5rem;
+  font-size: 1.8rem;
+}
+
+.fa-bars {
+  color: #fff;
+}
+
+@media screen and (max-width: 1025px) {
   .nav-menu {
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    grid-gap: 10px;
-    list-style: none;
-    text-align: center;
-    width: 60vw;
-    justify-content: end;
-    margin-right: 2rem;
-  }
-  
-  .nav-item {
-    height: 80px;
-  }
-  
-  .nav-links {
-    color: #f6c4ca;
     display: flex;
-    align-items: center;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    height: 100%;
-    text-shadow: 1px 1px #ffffff;
-  }
-  
-  .nav-links:hover {
-    border-bottom: 4px solid #fff;
-    transition: all 0.2s ease-out;
+    flex-direction: column;
+    width: 100%;
+    height: 40vh;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+    background: #635f5f;
   }
 
-  .fa-bars {
-    color: #fff;
+  .nav-menu.active {
+    background: #242222;
+    top: 4.8vw;
+    height: fit-content;
+    left: 0;
+    z-index: 1;
   }
-  
-  .nav-links-mobile {
-    display: none;
+
+  .nav-item {
+    margin-bottom: 25px;
+  }
+
+  .logo-name {
+    font-size: 5vmax;
+  }
+
+  .nav-links {
+    text-align: center;
+    width: 100%;
+    display: table;
+    padding-top: 30px;
+  }
+
+  .nav-links:hover {
+    background-color: #fff;
+    color: #242424;
+    border-radius: 0;
   }
   
   .menu-icon {
-    display: none;
-    color: #ffffff;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 3vh;
+    cursor: pointer;
+    margin-top: -0.8vw;
   }
-  
-  @media screen and (max-width: 960px) {
-    .NavbarItems {
-      position: relative;
-    }
-  
-    .nav-menu {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      height: 90vh;
-      position: absolute;
-      top: 80px;
-      left: -100%;
-      opacity: 1;
-      transition: all 0.5s ease;
-    }
-  
-    .nav-menu.active {
-      background: #242222;
-      left: 0;
-      opacity: 1;
-      transition: all 0.5s ease;
-      z-index: 1;
-    }
-  
-    .nav-links {
-      text-align: center;
-      padding: 2rem;
-      width: 100%;
-      display: table;
-    }
-  
-    .nav-links:hover {
-      background-color: #fff;
-      color: #242424;
-      border-radius: 0;
-    }
-  
-    .navbar-logo {
-      position: absolute;
-      top: 0;
-      left: 0;
-      transform: translate(25%, 50%);
-    }
-  
-    .menu-icon {
-      display: block;
-      position: absolute;
-      top: 0;
-      right: 0;
-      transform: translate(-100%, 60%);
-      font-size: 1.8rem;
-      cursor: pointer;
-    }
-  
-    .fa-times {
-      color: #fff;
-      font-size: 2rem;
-    }
-  
-    .nav-links-mobile {
-      display: block;
-      text-align: center;
-      margin: 2rem auto;
-      border-radius: 4px;
-      width: 80%;
-      text-decoration: none;
-      font-size: 1.5rem;
-      background-color: transparent;
-      color: #fff;
-      padding: 14px 20px;
-      border: 1px solid #fff;
-      transition: all 0.3s ease-out;
-    }
-  
-    .nav-links-mobile:hover {
-      background: #fff;
-      color: #242424;
-      transition: 250ms;
-    }
+  .nav-menu.active {
+    height: fit-content;
+    top: 4.8vh;
+  }
+} 
 
-    .logo-image {
-      display: block;
-      position: absolute;
-      transform: translate(-30%, 40%);
-      cursor: pointer;
-    }
+/* iPhone Screen */
+@media screen and (max-width: 720px) {
+  
+  .logo-name {
+    font-size: 5vmax;
+    margin-top: 10px;
   }
+
+  .nav-menu.active {
+    height: fit-content;
+    top: 4.8vh;
+  }
+
+  .menu-icon {
+    font-size: 3vh;
+  }
+
+} 
+
+@media screen and (max-width: 650px) {
+  .menu-icon {
+    font-size: 3vh;
+    padding-bottom: -3vw;
+  }
+  
+}

@@ -1,0 +1,25 @@
+
+.icons {
+    margin: 35px 25px;
+    max-height: 120px;
+}
+
+.main-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    margin-bottom: -250px;
+    font-family: 'Courgette', sans-serif;
+}
+
+
+@media screen and (max-width: 720px) {
+    .all-icons {
+        display: flex;
+        flex-direction: column;
+    }
+}

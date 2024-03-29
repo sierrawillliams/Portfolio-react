@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: Bright;
-    src: url(/public/fonts/Bright\ DEMO.otf);
+    src: url(/public/fonts/Bright.otf);
   }
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
@@ -17,7 +17,7 @@
 }
 
 .messageTitle {
-    font-family: 'Courgette';
+    font-family: 'Bright';
     text-shadow: 3px 2px #ed8495;
     color: #ffffff;
     font-size: 300%;
@@ -25,16 +25,13 @@
 }
 
 .name, .email, .msg {
-    text-align: center;
     font-family: 'Montserrat';
     color: #ed8495;
     text-align: justify;
     font-size: 120%;
-    text-shadow: 2px 2px 2px #ffffff;
 }
 
 .nameField, .emailField, .msgField {
-    text-align: center;
     margin: 10px 0 20px 10px;
     height: 30px;
     width: 300px;
@@ -65,6 +62,7 @@
     width: 300px;
     border-radius: 2px;
     cursor: pointer;
+    font-family: 'Montserrat';
 }
 
 .btn-submit:active {

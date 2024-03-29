@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette');
 
+@font-face {
+  font-family: Bright;
+  src: local('Bright'), url(../../public/fonts/Bright.otf) format('otf');
+}
+
 .cards {
     padding: 4rem;
     background-color: #fad1d6;
-    
+    font-family: 'Montserrat', sans-serif;
   }
   
   h1 {
@@ -93,13 +98,21 @@
   }
   
   .cards__item__info {
-    padding: 20px 30px 30px;
+    padding: 20px 25px 20px;
   }
   
   .cards__item__text {
     color: #252e48;
     font-size: 18px;
     line-height: 24px;
+  }
+
+  .cards__item__languages {
+    padding: 0 20px 30px;
+  }
+
+  .cards__item__language__text {
+    color: #ed8495;
   }
   
   @media only screen and (min-width: 1200px) {
@@ -111,17 +124,12 @@
   @media only screen and (min-width: 1024px) {
     .cards__items {
       display: flex;
-    }
-  }
-  
-  @media only screen and (max-width: 1024px) {
-    .cards__item {
       margin-bottom: 2rem;
     }
   }
 
   .title-work {
-    font-family: 'Courgette';
+    font-family: 'Montserrat';
     text-shadow: 3px 2px #ed8495;
     color: #ffffff;
     font-size: 300%;
