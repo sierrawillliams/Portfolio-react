@@ -137,8 +137,8 @@
     top: 4.8vh;
   }
 
-  .navbar-container {
-    min-height: 5vh;
+  .navbar {
+    min-height: 60vh;
   }
 } 
 
