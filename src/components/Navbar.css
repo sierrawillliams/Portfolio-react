@@ -45,6 +45,7 @@
 .active {
   border-bottom: 4px solid #fff;
   transition: all 0.2s ease-out;
+  margin-bottom: -1vh;
 }
 
 .nav-item {
