@@ -136,6 +136,10 @@
     height: fit-content;
     top: 4.8vh;
   }
+
+  .navbar-container {
+    min-height: 5vh;
+  }
 } 
 
 /* iPhone Screen */
