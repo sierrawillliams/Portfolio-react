@@ -8,17 +8,16 @@
 
 .navbar {
   font-size: 1.2rem;
-
 }
 
 .navbar-container {
-  display:inherit;
+  display: inherit;
   height: fit-content;
   background-color: #000000;
   position: fixed;
   width: 100%;
   z-index: 1;
-
+  min-height: 2rem;
 }
 
 .logo-name {
