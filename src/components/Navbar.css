@@ -80,7 +80,7 @@
   color: #fff;
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1025px) and (max-height: 714px) {
   .nav-menu {
     display: flex;
     flex-direction: column;
@@ -138,7 +138,7 @@
 } 
 
 /* iPhone Screen */
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 720px) and (max-height: 714px) {
   
   .logo-name {
     font-size: 5vmax;
@@ -156,7 +156,7 @@
 
 } 
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 650px) and (max-height: 714px) {
   .menu-icon {
     font-size: 3vh;
     padding-bottom: -3vw;
