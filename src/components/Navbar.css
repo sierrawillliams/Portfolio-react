@@ -85,7 +85,7 @@
     flex-direction: column;
     width: 100%;
     position: absolute;
-    top: 8vh;
+    top: 40vh;
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
