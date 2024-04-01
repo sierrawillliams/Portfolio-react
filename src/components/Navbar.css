@@ -27,7 +27,7 @@
   font-size: 60px;
   text-decoration: none;
   margin-left: 2vw;
-  margin-top: 1.5vmin;
+  margin-top: 15px;
   float: left;
 }
 
@@ -169,6 +169,7 @@
     color: #242424;
     border-radius: 0;
   }
+
   .menu-icon {
     display: block;
     position: absolute;
