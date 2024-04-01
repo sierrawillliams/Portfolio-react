@@ -15,7 +15,7 @@
   background-color: #000000;
   position: fixed;
   width: 100%;
-  min-height: 12vh;
+  min-height: 6vh;
   z-index: 1;
 }
 
@@ -39,7 +39,6 @@
   display: inline-flex;
   float: right;
   margin-right: 20px;
-  margin-top: 3vh;
 }
 
 .active {
@@ -80,7 +79,12 @@
 .fa-bars {
   color: #fff;
 }
-/* Laptop */
+
+@media screen and (min-height: 720) {
+
+}
+
+/* Macbook */
 @media screen and (max-width: 1025px) and (max-height: 714px) {
   .nav-menu {
     display: flex;
@@ -147,7 +151,7 @@
   }
 
 } 
-/* Laptop */
+/* Macbook */
 @media screen and (max-width: 650px) and (max-height: 714px) {
   .menu-icon {
     font-size: 3vh;
