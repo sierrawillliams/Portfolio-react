@@ -107,11 +107,6 @@
     margin-bottom: 25px;
   }
 
-  .logo-name {
-    font-size: 65px;
-    margin-top: 16px;
-  }
-
   .nav-links {
     text-align: center;
     width: 100%;
@@ -187,12 +182,6 @@
 
 /* iPhone Screen  and laptop */
 @media screen and (max-width: 720px) and (max-height: 714px) {
-  
-  .logo-name {
-    font-size: 5vmax;
-    margin-top: 10px;
-  }
-
   .menu-icon {
     font-size: 3vh;
   }
