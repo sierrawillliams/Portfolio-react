@@ -136,6 +136,7 @@
   }
 } 
 
+/* Mac */
 @media screen and (max-width: 1047px) and (min-height: 720px) {
   .nav-menu {
     display: flex;
@@ -158,10 +159,6 @@
 
   .nav-item {
     margin-bottom: 25px;
-  }
-
-  .logo-name {
-    font-size: 5vmax;
   }
 
   .nav-links {
