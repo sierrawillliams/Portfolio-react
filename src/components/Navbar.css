@@ -15,7 +15,8 @@
   background-color: #000000;
   position: fixed;
   width: 100%;
-  min-height: 6vh;
+  min-height: 73px;
+  max-height: 73px;
   z-index: 1;
 }
 
@@ -137,6 +138,22 @@
     margin-top: -0.8vw;
   }
 } 
+
+@media screen and (min-width: 1259px) {
+
+  .navbar-container {
+    max-height: 73px;
+  }
+
+  .nav-item {
+    max-height: 73px;
+  }
+
+  .logo-name{
+    font-size: 65.75px;
+  }
+  
+}
 
 /* iPhone Screen  and laptop */
 @media screen and (max-width: 720px) and (max-height: 714px) {

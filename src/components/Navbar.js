@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAlignJustify } from '@fortawesome/free-solid-svg-icons';
 import { faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons';
 import '../components/Navbar.css'; 
-import { Button2 } from './Button2';
 
 function Navbar() {
     const [click, setClick] = useState(false);
