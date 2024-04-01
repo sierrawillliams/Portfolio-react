@@ -108,7 +108,8 @@
   }
 
   .logo-name {
-    font-size: 5vmax;
+    font-size: 65px;
+    margin-top: 16px;
   }
 
   .nav-links {
@@ -132,7 +133,7 @@
     transform: translate(-100%, 60%);
     font-size: 3vh;
     cursor: pointer;
-    margin-top: -0.8vw;
+    margin-top: 16px;
   }
 } 
 
