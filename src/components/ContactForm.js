@@ -37,6 +37,8 @@ export const ContactForm = () => {
             <br/>
             <input className='btn-submit' type="submit" value="Send" style={{fontWeight: 'bolder'}}/>
         </form>
+
+        <p className='actual-email'>Or email me at <a className="mailtoEmail" href="mailto:williamssierra90@gmail.com">williamssierra90@gmail.com</a></p>
     </div>
     </>
   );

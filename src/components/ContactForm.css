@@ -10,7 +10,7 @@
 .contact-container {
     padding: 125px 0 125px 0;
     background-color: white;
-    height: fit-content;
+    height: 650px;
     text-align: center;
     background-color: #fad1d6;
     font-weight: bolder;
@@ -23,7 +23,6 @@
     font-size: 300%;
     padding-bottom: 30px;
 }
-
 .name, .email, .msg {
     font-family: 'Montserrat';
     color: #ed8495;
@@ -69,4 +68,22 @@
     background-color: #000;
     box-shadow: none;
     transform: translate(5px, 5px);
+}
+
+.actual-email {
+    font-family: 'Montserrat';
+    color: #ed8495;
+    margin-top: 30px;
+    font-size: 100%;
+}
+.mailtoEmail {
+    font-family: 'Montserrat';
+}
+
+.mailtoEmail:link {
+    color: #fff;
+}
+
+.mailtoEmail:hover {
+    color: #ed8495;
 }
