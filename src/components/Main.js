@@ -9,9 +9,6 @@ import backgroundVideo from '../videos/wave.mp4';
 function Main() { 
   return (
     <div className='main-container'>
-        <video autoPlay={true} loop muted playsInline data-autoplay=''>
-          <source src={backgroundVideo} type='video/mp4' alt='Video by 33studiodesign from Pixabay'/>
-        </video>
         <div className='responsive-type-animation'>
           <TypeAnimation className='name' sequence={["Sierra Williams", 1000]} speed={20} style={{fontFamily: 'Bright', color: '#fff', textShadow: '3px 2px #f67c90'}}/>
         </div> 
