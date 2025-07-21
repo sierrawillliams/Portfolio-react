@@ -10,6 +10,7 @@ import arrow from '../../images/down-arrow.png';
 export default function Work() {
     return <> 
     <div className='main-container'>
+        
         <video autoPlay loop muted playsInline>
             <source src={backgroundVideo} type='video/mp4' alt='Video by Jemaver from Pixabay'/>
         </video>

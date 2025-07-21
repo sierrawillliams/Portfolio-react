@@ -1,10 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Courgette');
-@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
-
-@font-face {
-    font-family: Bright;
-    src: local('Bright'), url(../../public/fonts/Bright.otf) format('otf');
-  }
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400..900&display=swap');
 
   
 video {
@@ -32,7 +26,7 @@ video {
 }
 
 .responsive-type-animation {
-    font-size: 12vw;
+    font-size: 8vw;
     text-align: center;
 }
 .title {

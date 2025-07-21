@@ -1,25 +1,115 @@
 
-.icons {
-    margin: 35px 25px;
-    max-height: 120px;
-}
-
-.main-container {
-    height: 100vh;
-    width: 100%;
+    .main-container {
+    min-height: 80vh;
+    padding: 100px 20px 60px;
+    background: linear-gradient(135deg, #1b1b2f, #2e2e47);
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+  }
+  
+  .responsive-type-animation,
+  .about-intro,
+  .resume-button,
+  .tech-icons {
+    opacity: 0;
+    animation: fadeInUp 1s ease forwards;
+  }
+
+  .responsive-type-animation {
+    margin-top: 5rem;
+  }
+  
+  .about-intro {
+    font-size: 2rem;
+    max-width: 700px;
+    margin: 3rem auto 2rem auto;
+    font-weight: 300;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .resume-button {
+    margin-top: 2rem;
+    padding: 10px 25px;
+    font-size: 1.2rem;
+    color: white;
+    background: #a5a5de;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .resume-button:hover {
+    background: #c7c7fa;
+    border: 1px solid #a5a5de;
+  }
+  
+  .tech-icons {
+    display: flex;
+    gap: 20px;
+    font-size: 3rem;
     justify-content: center;
     align-items: center;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
-    margin-bottom: -250px;
-    font-family: 'Courgette', sans-serif;
-}
-
-
-@media screen and (max-width: 720px) {
-    .all-icons {
-        display: flex;
-        flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+  }
+  
+  .tech-icons i {
+    transition: transform 0.3s ease;
+    color: #a5a5de;
+  }
+  
+  .tech-icons i:hover {
+    transform: scale(1.2);
+  }
+  
+  .main-btns img {
+    animation: bounce 2s infinite;
+    cursor: pointer;
+  }
+  
+  /* Fade in animation */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(40px);
     }
-}
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Bounce arrow */
+  @keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(10px); }
+  }
+  
+  /* Responsive tweaks */
+  @media (max-width: 768px) {
+    .tech-icons {
+      font-size: 2.4rem;
+      gap: 15px;
+    }
+  
+    .resume-button {
+      font-size: 0.9rem;
+      padding: 8px 20px;
+    }
+  
+    .about-intro {
+      font-size: 1rem;
+    }
+  }
+  
