@@ -36,7 +36,7 @@ function Navbar() {
     <>
     <nav className='navbar'>
         <div className="navbar-container">
-            <h1 className='logo-name'>SW</h1>
+            <img className='logo-name' src="../images/logo.png"/>
             <div className='menu-icon' onClick={handleClick}>
                 <FontAwesomeIcon icon={click ? faAngleDoubleRight: faAlignJustify}/>
             </div>

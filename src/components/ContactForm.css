@@ -1,31 +1,25 @@
-@import url('https://fonts.googleapis.com/css?family=Courgette');
-
-@font-face {
-    font-family: Bright;
-    src: url(/public/fonts/Bright.otf);
-  }
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 .contact-container {
-    padding: 125px 0 125px 0;
+    padding: 125px 0 150px 0;
     background-color: white;
-    height: 650px;
+    height: 700px;
     text-align: center;
-    background-color: #fad1d6;
+    background-color: #c7c7fa;
     font-weight: bolder;
 }
 
 .messageTitle {
-    font-family: 'Bright';
-    text-shadow: 3px 2px #ed8495;
+    font-family: 'Cinzel Decorative';
+    text-shadow: 3px 2px #a5a5de;
     color: #ffffff;
     font-size: 300%;
     padding-bottom: 30px;
 }
 .name, .email, .msg {
     font-family: 'Montserrat';
-    color: #ed8495;
+    color: #6f6fb2;
     text-align: justify;
     font-size: 120%;
 }
@@ -34,9 +28,9 @@
     margin: 10px 0 20px 10px;
     height: 30px;
     width: 300px;
-    border: 1.5px solid #ed8495;
+    border: 1.5px solid #a5a5de;
     border-radius: 2px;
-    box-shadow: 5px 5px #fab5c1;
+    box-shadow: 5px 5px #6f6fb2;
     cursor: pointer;
 }
 
@@ -45,15 +39,15 @@
     height: 100px;
     width: 300px;
     border-radius: 2px;
-    border: 1.5px solid #ed8495;
-    box-shadow: 5px 5px #fab5c1;
+    border: 1.5px solid #a5a5de;
+    box-shadow: 5px 5px #6f6fb2;
 
 }
 
 .btn-submit {
-    border: 1.5px solid #ed8495;
-    box-shadow: 5px 5px #fab5c1;
-    color: #ed8495;
+    border: 1.5px solid #a5a5de;
+    box-shadow: 5px 5px #6f6fb2;
+    color: #6f6fb2;
     background-color: #ffffff;
     font-size: medium;
     margin-left: 10px;
@@ -72,7 +66,7 @@
 
 .actual-email {
     font-family: 'Montserrat';
-    color: #ed8495;
+    color: #a5a5de;
     margin-top: 30px;
     font-size: 100%;
 }
@@ -85,5 +79,5 @@
 }
 
 .mailtoEmail:hover {
-    color: #ed8495;
+    color: #a5a5de;
 }

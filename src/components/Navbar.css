@@ -9,20 +9,13 @@
   background-color: #000000;
   position: fixed;
   width: 100%;
-  min-height: 75px;
-  max-height: 75px;
   z-index: 1;
 }
 
 .logo-name {
-  font-family: 'Cinzel Decorative', serif;
-  text-shadow: 3px 2px #a5a5de;
-  color: #fff;
-  font-size: 60px;
-  text-decoration: none;
-  margin-left: 2vw;
-  margin-top: 17px;
   float: left;
+  margin: 20px 0 20px 20px;
+  width: 35px;
 }
 
 .menu-icon {

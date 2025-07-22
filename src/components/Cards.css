@@ -1,13 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Courgette');
-
-@font-face {
-  font-family: Bright;
-  src: local('Bright'), url(../../public/fonts/Bright.otf) format('otf');
-}
-
 .cards {
     padding: 4rem;
-    background-color: #fad1d6;
+    background-color: #c7c7fa;
     font-family: 'Montserrat', sans-serif;
   }
   
@@ -44,7 +37,7 @@
     display: flex;
     flex-flow: column;
     width: 100%;
-    box-shadow: 0 6px 20px #ed8495;
+    box-shadow: 0 6px 20px #7777a5;
     -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     border-radius: 10px;
@@ -74,7 +67,7 @@
     font-size: 12px;
     font-weight: 700;
     color: #fff;
-    background-color: #ed8495;
+    background-color: #a5a5de;
     box-sizing: border-box;
   }
   
@@ -112,7 +105,7 @@
   }
 
   .cards__item__language__text {
-    color: #ed8495;
+    color: #6f6fb2;
   }
   
   @media only screen and (min-width: 1200px) {
@@ -130,7 +123,7 @@
 
   .title-work {
     font-family: 'Montserrat';
-    text-shadow: 3px 2px #ed8495;
+    text-shadow: 3px 2px #a5a5de;
     color: #ffffff;
     font-size: 300%;
     padding-bottom: 30px;

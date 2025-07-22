@@ -4,20 +4,17 @@ import { TypeAnimation } from 'react-type-animation';
 import arrow from '../images/down-arrow.png';
 import './ContactForm.css';
 import './Main.css';
+import MatrixBackground from './MatrixBackground';
+
 
 
 function ContactMain() {
   return (
     <div className='main-container'>
-        <video autoPlay loop muted playsInline>
-            <source src={backgroundVideo} type='video/mp4' alt='Video by PCh Art from Pixabay'/>
-        </video>
+         <MatrixBackground color="#360f5a" />
         <div className='responsive-type-animation'>
-          <TypeAnimation className='name' sequence={["Contact", 1000]} speed={20} style={{ fontSize: '12vw', fontFamily: 'Bright', textShadow: '3px 2px #f67c90', color: '#fff'}}/>
+          <TypeAnimation className='name' sequence={["Contact", 1000]} speed={20} style={{ fontSize: '7vw', fontFamily: 'Cinzel Decorative', textShadow: '3px 2px #a5a5de', color: '#fff'}}/>
         </div> 
-        <div className='main-btns'>
-            <img src={arrow} height={60}/>
-        </div>
     </div>
   )
 }

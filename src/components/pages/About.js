@@ -4,13 +4,14 @@ import '../AboutItem.css';
 import AboutItem from "../AboutItem.js";
 import Footer from '../Footer';
 import { TypeAnimation } from 'react-type-animation';
-import arrow from '../../images/down-arrow.png';
-import Particles from "react-tsparticles";
+import MatrixBackground from '../MatrixBackground';
 
 export default function About() {
   return (
     <>
       <div className='main-container'>
+
+      <MatrixBackground color="#360f5a" />
         {/* Animated Intro */}
         <div className='responsive-type-animation'>
           <TypeAnimation
@@ -20,13 +21,13 @@ export default function About() {
               1500,
               "Front-End Developer",
               1500,
-              "React & UI Enthusiast",
+              "React + UI Enthusiast",
               1500,
             ]}
             speed={40}
             repeat={Infinity}
             style={{
-              fontSize: '7vw',
+              fontSize: '80px',
               fontFamily: 'Cinzel Decorative',
               textShadow: '3px 2px #a5a5de',
               color: '#fff',
